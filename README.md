@@ -5,4 +5,4 @@ Minimalistic theme for oh-my-zsh
 
 Windows Terminal:
 
-![windows-terminal](https://raw.githubusercontent.com/andrejreznik/rho-zsh-theme/master/showcases/windows-terminal.png)
+![windows-terminal](https://raw.githubusercontent.com/andrejreznik/rho-zsh-theme/main/showcases/windows_terminal.png)
