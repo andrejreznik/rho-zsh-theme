@@ -1,5 +1,3 @@
-PROMPT="%(?:%{$fg_bold[green]%}✔ :%{$fg_bold[red]%}✗ )"
-PROMPT+='%{$fg[white]%}%n %{$fg[blue]%}%~%{$reset_color%} $(git_prompt_info)> '
+PROMPT='%(?:%F{green}✔:%F{red}✗) %B%F{white}%n %F{blue}%~%b %F{yellow}$(git_prompt_info) %F{white}> '
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[yellow]%}("
-ZSH_THEME_GIT_PROMPT_SUFFIX=") %{$FG[015]%}%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="(" # Override default "git:(" prefix
